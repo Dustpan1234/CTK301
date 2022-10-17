@@ -1,0 +1,109 @@
+body {
+  background-color: gray;
+  padding: 5px;
+  margin: 5px;
+}
+
+#wrapper {
+  margin: 1em auto;
+  border: 3px solid darkblue;
+  background-color: #ffffff;
+  width: 960px;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+}
+
+
+h1 a {
+  background-color: darkblue;
+  color: white;
+  grid-column: span 6;
+  font-weight:normal;
+  text-decoration:none;
+}
+
+h1 a:hover {
+  color: black;
+  text-decoration:underline;
+  grid-column:span 6;
+}
+
+h2 {
+  color:darkblue;
+  border-bottom: solid;
+  border-color: darkblue;
+}
+main {
+  grid-column: span 5;
+  margin: 5px;
+  padding: 5px;
+}
+
+nav {
+    grid-column: span 6;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  border: 1px solid black;
+  background-color: darkblue;
+  font-family: helvetica;
+  margin: 20px 20px 20px 0px;
+  padding: 0px;
+  width: 200px;
+  color: white;
+  display: inline-block;
+}
+
+nav li a {
+  color: white;
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+}
+
+nav li a:hover {
+  background-color: darkred;
+}
+
+.floatimg {
+    float:left;
+    border: 2px solid darkblue;
+}
+
+p a {
+  color: red;
+  font-style: bold;
+  text-decoration: none;
+}
+
+p a:hover {
+  color: blue;
+  text-decoration:underline;
+}
+
+footer {
+  font-family:Verdana;
+  text-align:left;
+  color: white;
+  background-color: red;
+  border: 2px solid darkblue;
+  grid-column: span 6;
+}
+
+.floated {
+  float:right;
+  border: 2px solid darkblue;
+}
+
+.floaters {
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  border: 2px solid darkblue;
+}
